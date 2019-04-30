@@ -26,7 +26,7 @@ export class Login extends Component {
 
     // TODO: 
     if (this.state.username !== 'hello1') {
-      Sentry.captureMessage('test-sourcemap登陆用户名错误, 应该是:hello1， 输入的是:' + this.state.username)
+      Sentry.captureMessage('123登陆用户名错误, 应该是:hello1， 输入的是:' + this.state.username)
       return false
     }
     this.props.history.push('/')
